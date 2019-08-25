@@ -13,3 +13,4 @@
 - Code: 
     - **spotify_album_blur.md** the README file for this project.
     - **requirements.txt** environment packages used in development.
+    - **album_blur.ipynb** jupyter notebook with the actual code.
