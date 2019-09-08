@@ -1,16 +1,16 @@
 # Recreating Spotify's Album Art Blur
 
-- Spotify's iOS app automatically generates a background glow around the album art of the currently playing song.
+- Spotify's iOS app automatically generates a background glow around the album art of the currently playing song. I first became interested in Spotify's implementation of this feature when I noticed that the glow color of Brockhampton's "Saturation III" was different for different songs. (as of 09/07/2019 Spotify has since fixed this bug)
 - This is somehow related to the colors present in the artwork, but not necessarily an exact replication of the art (like android's scale and blurred art when playing)
 - Sometimes it seems like its able to catch highlight/accent colors, other times, it is just the most prevalent color.
-- This project is my attempt to write code that generates a glow color from colors in an album cover.
+- This project is my attempt to write code that generates a glow color value from colors in an album cover.
 
 
 ## Contents:
-- Images: 
+- Images:
     - 9 Screenshots of random album art from my phone, including 2 songs on the same album, which share the same art, but have different glow colors.
     - 8 Images of album art from the screenshots.
-- Code: 
+- Code:
     - **spotify_album_blur.md** the README file for this project.
     - **requirements.txt** environment packages used in development.
     - **album_blur.ipynb** jupyter notebook with the actual code.
