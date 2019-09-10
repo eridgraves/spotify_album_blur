@@ -14,3 +14,16 @@
     - **spotify_album_blur.md** the README file for this project.
     - **requirements.txt** environment packages used in development.
     - **album_blur.ipynb** jupyter notebook with the actual code.
+    
+
+## Project Status/Notes:
+
+Last update: September 9, 2019
+- I am happy with the functionality of the code as it stands here. It was a good hand-on example of image-processing techniques and thinking of how a large company would implement such an easy to overlook feature. 
+
+
+## Future Improvements:
+- Create mock-up UI from the extracted highlight colors. (Seems relatively straightforward and not really in my area of interest)
+- Fine-tune image scaling and k-means clusters parameters.
+    - These have a large impact on which colors are produced. I noticed while testing that colors would be removed during scaling and clusters would move to non-existent colors while calculating means. 
+- Look into other ways of determining the most prominent color.
